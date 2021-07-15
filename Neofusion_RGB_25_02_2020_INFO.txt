@@ -1,0 +1,67 @@
+PROTOTYPE PARAMETERS - Intrinsics and Extrinsics REFINED 
+Prototype name:  Neofusion_RGB_RefV2 
+Date:  25_02_2020 
+RGB Intrinsics from initial prototype file:  D:\Data\CameraIntrinsics\Neofusion_RGB_only2radialCoef_04_12_2019.mat 
+Calibration Point Cloud filename  1  :  D:\Data\Capturas\Neofusion_RGB_Polarimetrica\Capt_Refinement_25_02_2020\indoor\scene1\20200225_105102_888_int.pcd 
+Calibration Point Cloud filename  2  :  D:\Data\Capturas\Neofusion_RGB_Polarimetrica\Capt_Refinement_25_02_2020\indoor\scene2\20200225_105127_648_int.pcd 
+Calibration Point Cloud filename  3  :  D:\Data\Capturas\Neofusion_RGB_Polarimetrica\Capt_Refinement_25_02_2020\indoor\scene3\20200225_105356_744_int.pcd 
+Calibration Point Cloud filename  4  :  D:\Data\Capturas\Neofusion_RGB_Polarimetrica\Capt_Refinement_25_02_2020\indoor\scene4\20200225_105416_795_int.pcd 
+Calibration Point Cloud filename  5  :  D:\Data\Capturas\Neofusion_RGB_Polarimetrica\Capt_Refinement_25_02_2020\outdoor\scene1\20200225_104144_248_int.pcd 
+Calibration Point Cloud filename  6  :  D:\Data\Capturas\Neofusion_RGB_Polarimetrica\Capt_Refinement_25_02_2020\outdoor\scene2\20200225_104242_299_int.pcd 
+Calibration Point Cloud filename  7  :  D:\Data\Capturas\Neofusion_RGB_Polarimetrica\Capt_Refinement_25_02_2020\outdoor\scene3\20200225_104744_729_int.pcd 
+Calibration Point Cloud filename  8  :  D:\Data\Capturas\Neofusion_RGB_Polarimetrica\Capt_Refinement_25_02_2020\outdoor\scene4\20200225_104847_757_int.pcd 
+Calibration Image  1  :  D:\Data\Capturas\Neofusion_RGB_Polarimetrica\Capt_Refinement_25_02_2020\indoor\scene1\20200225_105102_848.png 
+Calibration Image  2  :  D:\Data\Capturas\Neofusion_RGB_Polarimetrica\Capt_Refinement_25_02_2020\indoor\scene2\20200225_105127_694.png 
+Calibration Image  3  :  D:\Data\Capturas\Neofusion_RGB_Polarimetrica\Capt_Refinement_25_02_2020\indoor\scene3\20200225_105253_761.png 
+Calibration Image  4  :  D:\Data\Capturas\Neofusion_RGB_Polarimetrica\Capt_Refinement_25_02_2020\indoor\scene4\20200225_105416_748.png 
+Calibration Image  5  :  D:\Data\Capturas\Neofusion_RGB_Polarimetrica\Capt_Refinement_25_02_2020\outdoor\scene1\20200225_104144_299.png 
+Calibration Image  6  :  D:\Data\Capturas\Neofusion_RGB_Polarimetrica\Capt_Refinement_25_02_2020\outdoor\scene2\20200225_104242_239.png 
+Calibration Image  7  :  D:\Data\Capturas\Neofusion_RGB_Polarimetrica\Capt_Refinement_25_02_2020\outdoor\scene3\20200225_104744_784.png 
+Calibration Image  8  :  D:\Data\Capturas\Neofusion_RGB_Polarimetrica\Capt_Refinement_25_02_2020\outdoor\scene4\20200225_104847_717.png 
+----- LIDAR REFINEMENTS ----- 
+Additional X (Roll) angle of rotation [º]:  0.0000 
+Additional Y (Pitch) angle of rotation [º]:  0.0000 
+Additional Z (Yaw) angle of rotation [º]:  0.0000 
+Additional X translation [mm]:  0.0000 
+Additional Y translation [mm]:  0.0000 
+Additional Z translation [mm]:  0.0000 
+----- CAMERA REFINEMENTS ----- 
+Additional X (Roll) angle of rotation [º]:  -0.2242 
+Additional Y (Pitch) angle of rotation [º]:  -0.0182 
+Additional Z (Yaw) angle of rotation [º]:  -0.6606 
+Additional X translation [mm]:  20.0000 
+Additional Y translation [mm]:  -35.0000 
+Additional Z translation [mm]:  0.0000 
+----- CAMERA RELATIVE TO LIDAR PARAMETERS (C to L) ----- 
+Relative X (Roll) angle of rotation [º]:  -1.4978 
+Relative Y (Pitch) angle of rotation [º]:  0.2816 
+Relative Z (Yaw) angle of rotation [º]:  -1.1087 
+Relative X translation [mm]:  -39.8305 
+Relative Y translation [mm]:  -34.2150 
+Relative Z translation [mm]:  -394.1276 
+----- CAMERA TO LIDAR TRANSFORMATION (C to L) ----- 
+----- p_lid = R*p_cam + t = M*p_cam ----- 
+0.999801 	 0.019211 	 0.005417 	 -39.830533 
+-0.019346 	 0.999474 	 0.026033 	 -34.214965 
+0.999801 	 -0.026133 	 0.999646 	 -394.127591 
+0.000000 	 0.000000 	 0.000000 	 1.000000 
+----- p" = R*p + t = M*p ----- 
+----- LIDAR ROTATION MATRIX ----- 
+0.999768 	 0.001985 	 -0.021443 
+-0.002796 	 0.999278 	 -0.037893 
+0.021353 	 0.037944 	 0.999052 
+----- LIDAR TRANSLATION VECTOR ----- 
+88.544917 	 129.378192 	 -4045.676612 
+----- A*[x,y,1] = [X,Y,Z,1]*[R; t]*K ----- 
+----- CAMERA INTRINSIC MATRIX [fx 0 0; s fy 0; cx cy 1] ----- 
+2457.005064 	 0.000000 	 0.000000 
+1.375881 	 2450.983886 	 0.000000 
+615.208515 	 543.883476 	 1.000000 
+----- CAMERA DISTORTION VECTOR [k1 k2 p1 p2 k3] ----- 
+-0.166018 	 1.241622 	 -0.000451 	 0.002035 	 0.000000 
+----- CAMERA ROTATION MATRIX ----- 
+0.999636 	 0.021751 	 -0.015968 
+-0.021942 	 0.999689 	 -0.011880 
+0.015705 	 0.012227 	 0.999802 
+----- CAMERA TRANSLATION VECTOR ----- 
+15.086933 	 -57.136841 	 4442.920930 
